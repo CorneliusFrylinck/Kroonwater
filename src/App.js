@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import LandingPage from './Components/Pages/Landing/landingPage';
+import Navbar from './Components/Layout/navbar';
+import Footer from './Components/Layout/footer';
+import { ContactPage } from '@mui/icons-material';
+import DisclaimerPage from './Components/Pages/Disclaimer/disclaimerPage';
+import ProductListPage from './Components/Pages/Product/productListPage';
+import ProductPage from './Components/Pages/Product/productPage';
+import ServicesPage from './Components/Pages/Service/servicesPage';
+import WhyUseUsPage from './Components/Pages/WhyUseUs/whyUseUsPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar/>
+      <Routes>
+        <Route path='/contact' element={<ContactPage/>}></Route>
+        <Route path='/disclaimer' element={<DisclaimerPage/>}></Route>
+        <Route path='/products/:categoryId' element={<ProductListPage/>}></Route>
+        <Route path='/product/:productId' element={<ProductPage/>}></Route>
+        <Route path='/services' element={<ServicesPage/>}></Route>
+        <Route path='/whyUseUs' element={<WhyUseUsPage/>}></Route>
+        <Route path='/' element={<LandingPage/>}></Route>
+      </Routes>
+      <Footer/>
+    </>
   );
 }
 
