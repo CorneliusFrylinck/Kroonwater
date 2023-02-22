@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <div className='nav-bar-placeholder'></div>
       <Routes>
         <Route path='/contact' element={<ContactPage/>}></Route>
         <Route path='/disclaimer' element={<DisclaimerPage/>}></Route>

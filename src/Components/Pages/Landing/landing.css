@@ -33,15 +33,16 @@
 .about-component {
     display: flex;
     padding: 0 1rem;
-    gap: 1rem;
+    gap: 2rem;
+    margin: 3rem 0;
 }
 
 .why-use-us-container {
-    min-width: 12rem;
+    min-width: 10rem;
 }
 
 .why-use-us-h3 {
-    padding-right: 4rem;
+    padding-right: 2rem;
     color: #015295;
 }
 
@@ -49,4 +50,38 @@
     height: 5rem;
     background-color: rgb(1, 166, 248);
     width: 100%;
+}
+
+.category-header {
+    color: #025396;
+    margin-bottom: 0;
+}
+
+.shrink {
+    margin: 1rem 2rem;
+}
+
+.shrink p {
+    margin-top: 0.3rem;
+}
+
+.shrink hr {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.categories-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category img {
+    max-width: 8rem;
+    min-width: 8rem;
+    height: 8.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #009DD3;
 }
