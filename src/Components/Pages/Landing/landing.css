@@ -1,0 +1,52 @@
+.header-image {
+    width: 100%;
+    height: auto;
+    display:inline-block;
+}
+
+.header-image-container {
+    width: 100%;
+    position: relative;
+}
+
+.header-image-container:after {
+    content: "Welcome to Kroon-Water!";
+    position: absolute;
+    left: clamp(50%, 40%, 30%);
+    top: 50%;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-shadow: 2px 1px 3px #01A3F6;
+}
+
+.header-image-container:before {
+    content: "Providing clean water since 1995";
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.about-component {
+    display: flex;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+
+.why-use-us-container {
+    min-width: 12rem;
+}
+
+.why-use-us-h3 {
+    padding-right: 4rem;
+    color: #015295;
+}
+
+.nav-bar-placeholder {
+    height: 5rem;
+    background-color: rgb(1, 166, 248);
+    width: 100%;
+}

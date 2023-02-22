@@ -4,6 +4,7 @@ import './product.css';
 
 const ProductListPage = () => {
     const { categoryId } = useParams();
+    
     return (
         <div>ProductListPage: {categoryId}</div>
     )

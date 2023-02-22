@@ -1,0 +1,19 @@
+.logo {
+    max-width: 15rem;
+}
+
+.logo-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-bar {
+    position: fixed;
+    height: 5rem;
+    background-color: rgba(0, 41, 76, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
