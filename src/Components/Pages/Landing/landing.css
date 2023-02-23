@@ -20,7 +20,7 @@
 }
 
 .header-image-container:before {
-    content: "Providing clean water since 1995";
+    content: "Providing clean water since 1995.";
     position: absolute;
     left: 1rem;
     bottom: 1rem;
@@ -32,17 +32,25 @@
 
 .about-component {
     display: flex;
-    padding: 0 1rem;
     gap: 2rem;
-    margin: 3rem 0;
+    margin-bottom: 3rem;
 }
 
 .why-use-us-container {
     min-width: 10rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.why-use-us-container p {
+    margin-top: 0;
 }
 
 .why-use-us-h3 {
     padding-right: 2rem;
+    margin-top: 0;
     color: #008CC3;
 }
 
@@ -52,13 +60,13 @@
     width: 100%;
 }
 
-.category-header {
+.header {
     color: #008CC3;
     margin-bottom: 0;
 }
 
 .shrink {
-    margin: 1rem 2rem;
+    margin: 1rem 0;
 }
 
 .shrink p {
@@ -84,4 +92,17 @@
 a {
     text-decoration: none;
     color: #008CC3;
+}
+
+.padded {
+    padding: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
 }
