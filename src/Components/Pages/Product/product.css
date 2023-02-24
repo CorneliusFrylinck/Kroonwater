@@ -1,0 +1,61 @@
+.product-component > img {
+    height: 8.5rem;
+    width: 8rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-page {
+    display: flex;
+}
+
+.filter-component {
+    width: 30rem;
+    padding: 1rem;
+}
+
+.icon-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.2rem;
+    cursor: pointer;
+}
+
+.search-text:focus {
+    outline: none !important;
+    outline-offset: none !important;
+    border: 2px solid #01A3F6;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 1.3rem 0.1rem;
+}
+
+.filter-options > div {
+    color: #01A3F6;
+    cursor: pointer;
+    font-size: 0.9rem;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.filter-options > div:hover {
+    color: #008CC3;
+}

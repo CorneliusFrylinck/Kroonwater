@@ -1,9 +1,13 @@
 import React from 'react';
 import './product.css';
 
-const ProductComponent = () => {
+const ProductComponent = ({
+    product
+}) => {
     return (
-        <div>ProductComponent</div>
+        <div className='product-component'>
+            <img src={require(`../../../Images/${product.image}`)} alt="product" />
+        </div>
     )
 }
 

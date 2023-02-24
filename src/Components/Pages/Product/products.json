@@ -1,0 +1,123 @@
+{
+    "products": [
+        {
+            "image": "CBB-1N-S.png",
+            "id": 1,
+            "description": "",
+            "name": "",
+            "categoryId": 2
+        },
+        {
+            "image": "CBB-2N-S.png",
+            "id": 2,
+            "description": "",
+            "name": "",
+            "categoryId": 2
+        },
+        {
+            "image": "CBB-3N-S.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 2
+        },
+        {
+            "image": "CBB-4N-S.png",
+            "id": 2,
+            "description": "",
+            "name": "",
+            "categoryId": 2
+        },
+        {
+            "image": "CXVCTO10-C-UD.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "CXVCTO10-N.png",
+            "id": 2,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "CXVT3310-N.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "CXVT3310.png",
+            "id": 2,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "HWRO-101.png",
+            "id": 2,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "HWRO-101B.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "PXV0510-N.png",
+            "id": 2,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "RO218.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "SFPP-1005.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "SOFT50M.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "SOFT75M.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "SOFT100M.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        },
+        {
+            "image": "SOFT150M.png",
+            "id": 3,
+            "description": "",
+            "name": "",
+            "categoryId": 1
+        }
+    ]
+}
