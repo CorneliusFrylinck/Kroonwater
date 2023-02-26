@@ -20,7 +20,7 @@
 }
 
 .header-image-container:before {
-    content: "Providing clean water since 1995.";
+    content: "Providing clean water since 1995";
     position: absolute;
     left: 1rem;
     bottom: 1rem;

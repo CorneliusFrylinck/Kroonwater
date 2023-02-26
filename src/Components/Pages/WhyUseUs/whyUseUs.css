@@ -33,3 +33,7 @@ p {
 .more-on-top {
     padding-top: 0.6rem;
 }
+
+.bold {
+    font-weight: 550;
+}
