@@ -29,6 +29,20 @@
             "categoryId": 2
         },
         {
+            "image": "PP-218.png",
+            "id": 5,
+            "description": "",
+            "name": "Plug and play bottling unit 500lpd",
+            "categoryId": 2
+        },
+        {
+            "image": "PP-418.png",
+            "id": 6,
+            "description": "",
+            "name": "Plug and play bottling unit 2000lpd",
+            "categoryId": 2
+        },
+        {
             "image": "CXVCTO10-C-UD.png",
             "id": 5,
             "description": "",
@@ -43,49 +57,49 @@
             "categoryId": 1
         },
         {
-            "image": "CXVT3310-N.png",
+            "image": "CXVT3310.png",
             "id": 7,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
-            "image": "CXVT3310.png",
+            "image": "CXVT3310-N.png",
             "id": 8,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
-            "image": "HWRO-101.png",
+            "image": "PXV0510-N.png",
             "id": 9,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
-            "image": "HWRO-101B.png",
+            "image": "SFPP-1005.png",
             "id": 10,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
-            "image": "PXV0510-N.png",
+            "image": "HWRO-101.png",
             "id": 11,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
-            "image": "RO218.png",
+            "image": "HWRO-101B.png",
             "id": 12,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
-            "image": "SFPP-1005.png",
+            "image": "RO218.png",
             "id": 13,
             "description": "",
             "name": "",
@@ -96,28 +110,28 @@
             "id": 14,
             "description": "",
             "name": "",
-            "categoryId": 1
+            "categoryId": 3
         },
         {
             "image": "SOFT75M.png",
             "id": 15,
             "description": "",
             "name": "",
-            "categoryId": 1
+            "categoryId": 3
         },
         {
             "image": "SOFT100M.png",
             "id": 16,
             "description": "",
             "name": "",
-            "categoryId": 1
+            "categoryId": 3
         },
         {
             "image": "SOFT150M.png",
             "id": 17,
             "description": "",
             "name": "",
-            "categoryId": 1
+            "categoryId": 3
         }
     ]
 }

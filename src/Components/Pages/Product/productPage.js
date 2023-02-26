@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import data from "./products.json";
 import './product.css';
 import ContactFormComponent from '../Shared/ContactForm/contactForm';
+import { useStore } from '../../../Stores/store';
 
 const ProductPage = () => {
 
@@ -11,9 +11,12 @@ const ProductPage = () => {
     const [product, setProduct] = useState(undefined);
     const [pars, setPars] = useState(undefined);
 
+    const {productStore} = useStore();
+
     useEffect(() => {
-        setProduct(data.products.filter((p) => p.id == productId)[0]);
-        setPars(data.products.filter((p) => p.id == productId)[0].description.split("//"));
+        let product = productStore.getProducts(productId);
+        setProduct(product);
+        setPars(product.description.split("//"));
     }, [productId]);
 
     if (product === undefined || pars === undefined) return (

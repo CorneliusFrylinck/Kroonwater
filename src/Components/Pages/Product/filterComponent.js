@@ -1,22 +1,26 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './product.css';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/fontawesome-free-solid'
+import { observer } from 'mobx-react-lite';
+import { useStore } from '../../../Stores/store';
 
 const FilterComponent = ({
-    setCategory,
     initialCategory
 }) => {
 
     const [activeFilter, setActiveFiler] = useState(initialCategory);
+    const {productStore} = useStore();
 
     const filterByCategory = (category) => {
-        if (category === activeFilter) return;
-        setCategory(category);
-        setActiveFiler(category);
+        productStore.setCategoryId(category)
     }
+
+    useEffect(() => {
+        setActiveFiler(productStore.categoryId)
+    }, [productStore.categoryId])
 
     return (
         <div className='filter-component'>
@@ -40,4 +44,4 @@ const FilterComponent = ({
     )
 }
 
-export default FilterComponent
+export default observer(FilterComponent)

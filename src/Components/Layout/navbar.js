@@ -3,10 +3,12 @@ import './layout.css';
 import logo from '../../Images/logo.png';
 import searchIcon from '../../Images/search.png';
 import { Link } from 'react-router-dom';
-import data from '../Pages/Product/products.json';
+import { observer } from 'mobx-react-lite';
+import { useStore } from '../../Stores/store';
 
 const Navbar = () => {
     const [itemList, setItemList] = useState(undefined);
+    const {productStore} = useStore();
 
     const searchForItems = (e) => {
         const searchStr = e.target.value.toLowerCase();
@@ -16,7 +18,11 @@ const Navbar = () => {
             return;
         }
 
-        setItemList(data.products.filter(p => p.name.toLowerCase().includes(searchStr)));
+        setItemList(productStore.getItemList(searchStr));
+    }
+
+    const setCategoryId = (categoryId) => {
+        productStore.setCategoryId(categoryId);
     }
 
     return (
@@ -25,7 +31,7 @@ const Navbar = () => {
                 <img className='logo' src={logo} alt='logo' />
             </Link>
             <Link to={'/'} className='nav-element'>Home</Link>
-            <Link to={'/products/undefined'} className='nav-element'>Products</Link>
+            <Link to={'/products/undefined'} onClick={() => setCategoryId(undefined)} className='nav-element'>Products</Link>
             <Link to={'/services'} className='nav-element'>Services</Link>
             <Link to={'/contact'} className='nav-element'>Contact</Link>
             <div >
@@ -46,4 +52,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default observer(Navbar)

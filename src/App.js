@@ -10,6 +10,7 @@ import ProductPage from './Components/Pages/Product/productPage';
 import ServicesPage from './Components/Pages/Service/servicesPage';
 import WhyUseUsPage from './Components/Pages/WhyUseUs/whyUseUsPage';
 import ScrollToTop from './Components/Helpers/ScrollToTop';
+import { observer } from 'mobx-react-lite';
 
 function App() {
   return (
@@ -31,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default observer(App);
