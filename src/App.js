@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import LandingPage from './Components/Pages/Landing/landingPage';
 import Navbar from './Components/Layout/navbar';
 import Footer from './Components/Layout/footer';
-import { ContactPage } from '@mui/icons-material';
+import ContactPage from './Components/Pages/Contact/contactPage';
 import DisclaimerPage from './Components/Pages/Disclaimer/disclaimerPage';
 import ProductListPage from './Components/Pages/Product/productListPage';
 import ProductPage from './Components/Pages/Product/productPage';
@@ -13,7 +13,7 @@ import ScrollToTop from './Components/Helpers/ScrollToTop';
 
 function App() {
   return (
-    <>
+    <div className='app'>
       <Navbar/>
       <div className='nav-bar-placeholder'></div>
       <ScrollToTop />
@@ -27,7 +27,7 @@ function App() {
         <Route path='/' element={<LandingPage/>}></Route>
       </Routes>
       <Footer/>
-    </>
+    </div>
   );
 }
 

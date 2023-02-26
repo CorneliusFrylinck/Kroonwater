@@ -1,0 +1,10 @@
+.filler {
+    flex: 0 1 auto;
+    height: auto;
+    min-height: 1rem;
+}
+
+.contact-page {
+    height: auto;
+    margin: auto;
+}

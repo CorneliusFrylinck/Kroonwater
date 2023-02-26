@@ -1,0 +1,16 @@
+:root {
+    --padding: 2rem;
+}
+
+.contact-form-page {
+    width: calc(100% - calc(var(--padding) * 2));
+    padding: var(--padding);
+}
+
+.contact-form-container > div {
+    padding: 0.3rem;
+}
+
+.contact-form-container h3 {
+    color: rgba(0, 0, 0, 0.8);
+}

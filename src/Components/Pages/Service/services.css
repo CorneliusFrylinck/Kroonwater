@@ -1,0 +1,11 @@
+:root {
+    --page-padding: 2rem;
+}
+
+.services-page {
+    width: calc(100% - calc(var(--page-padding) * 2));
+    padding: var(--page-padding);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
