@@ -44,7 +44,7 @@ const ProductListPage = () => {
     }
     
     return (
-        <div className='product-page'>
+        <div className='products-page'>
             <FilterComponent setCategory={setCategory} initialCategory={categoryId} />
             <div className='product-list'>
                 {displayProducts.map((product, idx) => {

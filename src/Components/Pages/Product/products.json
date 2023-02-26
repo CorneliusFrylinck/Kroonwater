@@ -3,118 +3,118 @@
         {
             "image": "CBB-1N-S.png",
             "id": 1,
-            "description": "",
-            "name": "",
+            "description": "The first stage is a 50 micron sediment filter that will remove sediment, silt, rust and loose particles to ensure water.",
+            "name": "Big Blue 1-stage filter",
             "categoryId": 2
         },
         {
             "image": "CBB-2N-S.png",
             "id": 2,
-            "description": "",
-            "name": "",
+            "description": "The first stage is a 50 micron sediment filter that will remove sediment, silt, rust and loose particles to ensure water. //The stage 2activated carbon filter will remove chlorine, volatile organic compounds (VOC's) and bad tastes and odours from the water.",
+            "name": "Big Blue 2-stage filter",
             "categoryId": 2
         },
         {
             "image": "CBB-3N-S.png",
             "id": 3,
-            "description": "",
-            "name": "",
+            "description": "The first stage is a 50 micron sediment filter that will remove sediment, silt, rust and loose particles to ensure water. //The stage 2 activated carbon filter will remove chlorine, volatile organic compounds (VOC's) and bad tastes and odours from the water. //The third stage is a 5 micron sediment filter for finer filtration. It is also used as a polishing filter before the UV light. This is to ensure that the UV light receives clear water which in turn will ensure effective penetration of the UV light through the water.",
+            "name": "Big Blue 3-stage filter",
             "categoryId": 2
         },
         {
             "image": "CBB-4N-S.png",
-            "id": 2,
-            "description": "",
-            "name": "",
+            "id": 4,
+            "description": "The first stage is a 50 micron sediment filter that will remove sediment, silt, rust and loose particles to ensure water. //The stage 2 activated carbon filter will remove chlorine, volatile organic compounds (VOC's) and bad tastes and odours from the water. //The third stage is a 5 micron sediment filter for finer filtration. It is also used as a polishing filter before the UV light. This is to ensure that the UV light receives clear water which in turn will ensure effective penetration of the UV light through the water. //The fourth stage is a stainless steel light used to sterilize the water. UV rays can destroy 99.99% of harmful micro organisms without adding chemicals or changing your water's taste or odour. Ultraviolet light (UV) is a natural part of sunlight and is widely accepted as a reliable, efficient and environmentally friendly solution for water disinfection. The UV lamp utilizes the application of a particularly efficient UV radiator with a 254nm wave length which will kill organisms and wipe out their ability to survive and reproduce. The water is exposed to UV radiation in a specially designed chamber that provides intimate contact of the water with the UV light source. Bacteria and other living organisms absorb energy, which destroys or inactivates their DNA, thus preventing the bacteria from reproducing. Similarly, chemicals and organic compounds also absorb the energy and they are broken down into smaller and more harmless molecules.",
+            "name": "Big Blue 4-stage filter",
             "categoryId": 2
         },
         {
             "image": "CXVCTO10-C-UD.png",
-            "id": 3,
+            "id": 5,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "CXVCTO10-N.png",
-            "id": 2,
+            "id": 6,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "CXVT3310-N.png",
-            "id": 3,
+            "id": 7,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "CXVT3310.png",
-            "id": 2,
+            "id": 8,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "HWRO-101.png",
-            "id": 2,
+            "id": 9,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "HWRO-101B.png",
-            "id": 3,
+            "id": 10,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "PXV0510-N.png",
-            "id": 2,
+            "id": 11,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "RO218.png",
-            "id": 3,
+            "id": 12,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "SFPP-1005.png",
-            "id": 3,
+            "id": 13,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "SOFT50M.png",
-            "id": 3,
+            "id": 14,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "SOFT75M.png",
-            "id": 3,
+            "id": 15,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "SOFT100M.png",
-            "id": 3,
+            "id": 16,
             "description": "",
             "name": "",
             "categoryId": 1
         },
         {
             "image": "SOFT150M.png",
-            "id": 3,
+            "id": 17,
             "description": "",
             "name": "",
             "categoryId": 1

@@ -1,5 +1,6 @@
 import React from 'react';
 import './services.css';
+import ContactFormComponent from '../Shared/ContactForm/contactForm';
 
 const ServicesPage = () => {
     return (
@@ -13,6 +14,8 @@ const ServicesPage = () => {
                     <li>We specialize in hard water softening</li>
                     <li>Excellent client service and maintenance </li>
                 </ul>
+                <hr />
+                <ContactFormComponent subject={`Enquiry about your services`} />
             </div>
         </div>
     )

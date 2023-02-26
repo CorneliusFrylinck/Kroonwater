@@ -3,7 +3,7 @@ import './disclaimer.css';
 
 const DisclaimerPage = () => {
     return (
-        <div>DisclaimerPage</div>
+        <div style={{margin: "auto"}}>Disclaimer to be added</div>
     )
 }
 

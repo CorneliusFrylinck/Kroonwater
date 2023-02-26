@@ -9,3 +9,9 @@
     justify-content: center;
     margin: auto;
 }
+
+.services-container hr {
+    margin-top: 4rem;
+    border-bottom: 2px solid rgba(190, 190, 190, 0.3);
+    width: 100%;
+}

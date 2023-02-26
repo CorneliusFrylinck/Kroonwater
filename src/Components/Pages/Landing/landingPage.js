@@ -3,8 +3,8 @@ import './landing.css';
 import headerImage from '../../../Images/Header.png';
 import AboutComponent from './aboutComponent';
 import CategoryComponent from './categoryComponent';
-import household from '../../../Images/CBB-1N-S.png';
-import industrial from '../../../Images/RO218.png';
+import industrial from '../../../Images/CBB-1N-S.png';
+import household from '../../../Images/RO218.png';
 import softener from '../../../Images/SOFT50M.png';
 
 const LandingPage = () => {

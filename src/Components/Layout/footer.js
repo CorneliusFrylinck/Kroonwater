@@ -12,11 +12,14 @@ const Footer = () => {
                 </div>
                 <div className='footer-content-container'>
                     <Link className="contact-header" to="/contact">Contact Us</Link>
-                    <div>Christo Jordaan </div>
-                    <div>Potchefstroom</div>
-                    <div>083 627 5613 / 082 787 3632</div>
+                    <div>Christo Jordaan:  083 627 5613</div>
+                    <div>Marilize Jordaan: 082 787 3632</div>
                     <div>E-mail: kroonwater@gmail.com </div>
                 </div>
+            </div>
+            <div className='flex-between'>
+                <div>Copyright &copy; 2023 Kroon-water & Cornelius Frylinck</div>
+                <div>View our <Link to='/disclaimer'>Disclaimer</Link> </div>
             </div>
         </div>
     )
