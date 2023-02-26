@@ -25,7 +25,7 @@ const WhyUseUsPage = () => {
                     <li>The plastic plate at the bottom of the 5 micron filter ensures that the filters seal more securely and reduces the risk of water bypassing the filter </li>
                 </ul>
                 <h3>Our Products</h3>
-                <p>Hydro Wellness 5 Stage Reverse Osmosis Purification System. </p>
+                <p className='description-heading bold'>Hydro Wellness 5 Stage Reverse Osmosis Purification System </p>
                 <p>Removes microscopic debris and bacteria without removing healthy minerals from water. </p>
                 <p className='description-heading bold'>Features & Benefits: </p>
                 <ul>
