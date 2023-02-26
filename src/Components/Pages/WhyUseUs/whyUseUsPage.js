@@ -22,7 +22,7 @@ const WhyUseUsPage = () => {
                 <p className='description-heading bold'>The biggest advantages of the Hydro Wellness RO is the pre-filter size: </p>
                 <ul>
                     <li>The 15% bigger filter provides the client with an extended lifetime on the filters as well as better protection to the membrane </li>
-                    <li>The plastic plate at the bottom of the 5 micron filter ensures that the filters seal more securely and reduces the risk of water bypassing the filter. </li>
+                    <li>The plastic plate at the bottom of the 5 micron filter ensures that the filters seal more securely and reduces the risk of water bypassing the filter </li>
                 </ul>
                 <h3>Our Products</h3>
                 <p>Hydro Wellness 5 Stage Reverse Osmosis Purification System. </p>
@@ -43,9 +43,9 @@ const WhyUseUsPage = () => {
                     <li>Pipe and Bracket</li>
                 </ul>
                 <h3>Water Softener System</h3>
-                <p>Reduces lime and hardening elements in the water</p>
+                <p>Reduces lime and hardening elements in the water.</p>
                 <h3>What you get: </h3>
-                <p>Reduces lime and hardening elements in the water </p>
+                <p>Reduces lime and hardening elements in the water. </p>
                 <p className='description-heading bold'>Features & Benefits: </p>
                 <ul>
                     <li>Cost-effective</li>
