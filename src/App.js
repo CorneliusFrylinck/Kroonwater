@@ -9,12 +9,14 @@ import ProductListPage from './Components/Pages/Product/productListPage';
 import ProductPage from './Components/Pages/Product/productPage';
 import ServicesPage from './Components/Pages/Service/servicesPage';
 import WhyUseUsPage from './Components/Pages/WhyUseUs/whyUseUsPage';
+import ScrollToTop from './Components/Helpers/ScrollToTop';
 
 function App() {
   return (
     <>
       <Navbar/>
       <div className='nav-bar-placeholder'></div>
+      <ScrollToTop />
       <Routes>
         <Route path='/contact' element={<ContactPage/>}></Route>
         <Route path='/disclaimer' element={<DisclaimerPage/>}></Route>

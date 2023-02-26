@@ -21,19 +21,20 @@ const ProductListPage = () => {
     }, [])
 
     const setCategory = (category) => {
+        console.log("START====================================================START")
         setCategoryFilter(category);
-
+        console.log(`Category: ${category}`)
         if (oldCategory === categoryFilter) return;
         
-        setOldCategory(categoryFilter);
+        setOldCategory(category);
 
-        if (categoryFilter === undefined) {
+        if (category === undefined) {
             setDisplayProducts(products);
             return;
         }
         
-        if (categoryFilter) {
-            let display = products.filter(p => p.categoryId == categoryFilter);
+        if (category) {
+            let display = products.filter(p => p.categoryId == category);
             setDisplayProducts(display);
         }
     }

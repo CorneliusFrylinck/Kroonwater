@@ -1,3 +1,7 @@
+:root {
+    --padding: 2rem;
+}
+
 .logo {
     max-width: 15rem;
 }
@@ -10,10 +14,91 @@
 
 .nav-bar {
     position: fixed;
+    display: flex;
+    align-items: center;
     height: 5rem;
     background-color: rgba(0, 41, 76, 0.8);
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
+}
+
+.nav-element:not(:last-child) {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+    color: rgba(230, 230, 230, 0.8);
+    height: 3rem;
+    border-right: 2px solid rgba(150, 150, 220, 0.2);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 1s ease-out;
+}
+.nav-element:last-of-type {
+    border: none;
+}
+
+.nav-element:hover {
+    color: rgba(230, 230, 220, 1);
+}
+
+.nav-search {
+    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.4rem;
+    border-radius: 15px;
+    border: 1px solid #01C9F6;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(1, 163, 246, 0.3);
+    background-color: smokewhite;
+}
+
+.nav-search:hover {
+    border-radius: 2px solid #0171F6;
+}
+
+.nav-search:focus {
+    outline: none !important;
+    outline-offset: none !important;
+    border: 2px solid #01A3F6;
+}
+
+.footer-page {
+    width: calc(100% - calc(var(--padding) * 2));
+    padding: 2rem;
+    background-color: rgba(30, 30, 32, 1);
+    color: whitesmoke;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container > div {
+    color: rgba(230, 230, 250, 0.8);
+}
+
+.image-container img {
+    width: 8rem;
+}
+
+.contact-header {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.footer-contact-container {
+    display: flex;
+    flex-direction: column;
 }
