@@ -44,7 +44,7 @@ const WhyUseUsPage = () => {
                 </ul>
                 <h3>Water Softener System</h3>
                 <p>Reduces lime and hardening elements in the water.</p>
-                <h3>What you get: </h3>
+                <p className='description-heading bold'>What you get: </p>
                 <p>Reduces lime and hardening elements in the water. </p>
                 <p className='description-heading bold'>Features & Benefits: </p>
                 <ul>
@@ -53,13 +53,13 @@ const WhyUseUsPage = () => {
                     <li>Softer water protects elements in kettles, geysers and pipes </li>
                     <li>Soft water ensures cleaner laundry, dishes and hair </li>
                 </ul>
-                <h3>Tips & Tricks </h3>
+                <p className='description-heading bold'>Tips & Tricks </p>
                 <p className='description-heading bold'>How long does an industrial water filter last?</p>
                 <p>Filters used in commercial settings should be changed every 4 to 6 months. </p>
                 <p>Filters in residential settings should be changed every 6 to 12 months. </p>
                 <p>Reverse osmosis, membranes and additional alkalisers only need to be changed every 2 or 4 years, respectively. </p>
                 
-                <h3>Facts to consider</h3>
+                <p className='description-heading bold'>Facts to consider</p>
                 <p>Regular maintenance can extend the life of your water purification equipment. </p>
                 <p>Water softening can improve the efficiency of your appliances and reduce the amount of soap and detergent you use. </p>
                 <p>Hard water can leave mineral build-up on your fixtures and appliances.  Kroonwater offers water softening products to prevent this damage. </p>
