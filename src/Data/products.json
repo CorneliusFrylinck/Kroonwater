@@ -31,106 +31,106 @@
         {
             "image": "PP-218.png",
             "id": 5,
-            "description": "",
+            "description": "The plug and play bottling unit is designed as a small start-up bottling plant. It can either be used to sell water directly to the public or to bottle your own water.",
             "name": "Plug and play bottling unit 500lpd",
             "categoryId": 2
         },
         {
             "image": "PP-418.png",
             "id": 6,
-            "description": "",
+            "description": "The plug and play bottling unit is designed as a small start-up bottling plant. It can either be used to sell water directly to the public or to bottle your own water.",
             "name": "Plug and play bottling unit 2000lpd",
             "categoryId": 2
         },
         {
             "image": "CXVCTO10-C-UD.png",
             "id": 5,
-            "description": "",
-            "name": "",
+            "description": "A 10\", 5 Micron CTO coconut shell carbonblock filter.",
+            "name": "CTO filter",
             "categoryId": 1
         },
         {
             "image": "CXVCTO10-N.png",
             "id": 6,
-            "description": "",
-            "name": "",
+            "description": "A new type of the 10\", 5 Micron CTO coconut shell carbonblock filter.",
+            "name": "CTO filter",
             "categoryId": 1
         },
         {
             "image": "CXVT3310.png",
             "id": 7,
-            "description": "",
-            "name": "",
+            "description": "A 10\" GAC T33 coconut shell carbon filter.",
+            "name": "GAC T33 filter",
             "categoryId": 1
         },
         {
             "image": "CXVT3310-N.png",
             "id": 8,
-            "description": "",
-            "name": "",
+            "description": "A new type of the 10\" GAC T33 coconut shell carbon filter.",
+            "name": "GAC T33 filter",
             "categoryId": 1
         },
         {
             "image": "PXV0510-N.png",
             "id": 9,
-            "description": "",
-            "name": "",
+            "description": "A new type of the 5 micron 5UPP sediment filter.",
+            "name": "5UPP sediment filter",
             "categoryId": 1
         },
         {
             "image": "SFPP-1005.png",
             "id": 10,
-            "description": "",
-            "name": "",
+            "description": "A 10\" 5 micron melt blown sediment filter",
+            "name": "Melt blown sediment filter",
             "categoryId": 1
         },
         {
             "image": "HWRO-101.png",
             "id": 11,
-            "description": "",
-            "name": "",
+            "description": "A 5-stage reverse osmosis system.",
+            "name": "RO system",
             "categoryId": 1
         },
         {
             "image": "HWRO-101B.png",
             "id": 12,
-            "description": "",
-            "name": "",
+            "description": "A 5-stage reverse osmosis booster.",
+            "name": "RO booster",
             "categoryId": 1
         },
         {
             "image": "RO218.png",
             "id": 13,
-            "description": "",
-            "name": "",
+            "description": "A 6-stage high flow 50lph reverse osmosis system.",
+            "name": "High flow RO system",
             "categoryId": 1
         },
         {
             "image": "SOFT50M.png",
             "id": 14,
-            "description": "",
-            "name": "",
+            "description": "A complete 50 liter metered water softener. Water softeners softer water by removing certain materials such as calcium and magnesium.",
+            "name": "50l softener",
             "categoryId": 3
         },
         {
             "image": "SOFT75M.png",
             "id": 15,
-            "description": "",
-            "name": "",
+            "description": "A complete 75 liter metered water softener. Water softeners softer water by removing certain materials such as calcium and magnesium.",
+            "name": "75l softener",
             "categoryId": 3
         },
         {
             "image": "SOFT100M.png",
             "id": 16,
-            "description": "",
-            "name": "",
+            "description": "A complete 100 liter metered water softener. Water softeners softer water by removing certain materials such as calcium and magnesium.",
+            "name": "100l softener",
             "categoryId": 3
         },
         {
             "image": "SOFT150M.png",
             "id": 17,
-            "description": "",
-            "name": "",
+            "description": "A complete 150 liter metered water softener. Water softeners softer water by removing certain materials such as calcium and magnesium.",
+            "name": "150l softener",
             "categoryId": 3
         }
     ]
