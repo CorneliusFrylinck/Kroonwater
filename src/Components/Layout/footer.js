@@ -14,7 +14,7 @@ const Footer = () => {
                     <Link className="contact-header" to="/contact">Contact Us</Link>
                     <div>Christo Jordaan:  083 627 5613</div>
                     <div>Marilize Jordaan: 082 787 3632</div>
-                    <div>E-mail: kroonwater@gmail.com </div>
+                    <div>E-mail: info@kroonwater.com </div>
                 </div>
             </div>
             <div className='footer-footer'>

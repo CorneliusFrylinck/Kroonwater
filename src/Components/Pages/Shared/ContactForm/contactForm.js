@@ -5,7 +5,7 @@ const ContactFormComponent = ({
     subject=""
 }) => {
 
-    const emailAddress = "kroonwater@gmail.com";
+    const emailAddress = "info@kroonwater.com";
 
     return (
         <div className='contact-form-page'>
