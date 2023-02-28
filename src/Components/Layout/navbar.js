@@ -46,7 +46,7 @@ const Navbar = () => {
                         return (
                             <Link to={`/product/${item.id}`} key={idx} className='search-image-container'>
                                 <img className='search-image' src={require(`../../Images/${item.image}`)} alt="product" />
-                                <div>{item.name}</div>
+                                <div className='search-name'>{item.name}</div>
                             </Link>
                         )
                     })}

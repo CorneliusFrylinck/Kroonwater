@@ -127,13 +127,21 @@
     align-items: center;
     overflow-y: scroll;
     max-height: 20rem;
+    transition: 1s all ease;
 }
 
 .search-image {
     width: 3rem;
     max-width: 3rem;
     max-height: 3rem;
+    min-width: 3rem;
+    min-height: 3rem;
+    margin-right: 0.1rem;
     border-right: 1px solid rgba(50, 50, 50, 0.5);
+}
+
+.search-name {
+    margin-left: 0.1rem;
 }
 
 .search-image-container {
