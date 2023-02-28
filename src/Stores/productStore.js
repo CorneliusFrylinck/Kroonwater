@@ -28,10 +28,6 @@ export default class ProductStore {
         this.selectedProduct = result;
     }
 
-    getItemList = (searchStr) => {
-        //return this.getFileData().filter(p => p.name.toLowerCase().includes(searchStr));
-    }
-
     setFileredFileData = () => {
         axios.get("../Data/products.json").then((data) => {
             if (this.categoryId === undefined) this.displayProducts = data.data.products;

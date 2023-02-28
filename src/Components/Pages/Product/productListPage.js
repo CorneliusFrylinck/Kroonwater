@@ -32,7 +32,7 @@ const ProductListPage = () => {
     const searchFilter = (searchText) => {
         axios.get("../Data/products.json").then((data) => {
             let products = data.data.products;
-            if (category === "undefined" || category === undefined && searchText === "" || searchText === undefined || searchText === "undefined") {
+            if (category === "undefined" || category === undefined || searchText === "" || searchText === undefined || searchText === "undefined") {
                 setDisplayProducts(products);
                 return;
             }
