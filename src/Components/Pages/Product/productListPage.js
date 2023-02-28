@@ -29,6 +29,23 @@ const ProductListPage = () => {
         })
     }, [productStore.categoryId])
 
+    const searchFilter = (searchText) => {
+        axios.get("../Data/products.json").then((data) => {
+            let products = data.data.products;
+            if (category === "undefined" || category === undefined && searchText === "" || searchText === undefined || searchText === "undefined") {
+                setDisplayProducts(products);
+                return;
+            }
+            
+            if (category === "undefined" || category === undefined ) {
+                setDisplayProducts(products.filter(p => p.name.toLowerCase().includes(searchText)));
+                return;
+            }
+
+            setDisplayProducts(products.filter(p => p.categoryId == category && p.name.toLowerCase().includes(searchText)));
+        })
+    }
+
 
     if (displayProducts === undefined) {
         return <div>Loading...</div>
@@ -36,7 +53,7 @@ const ProductListPage = () => {
     
     return (
         <div className='products-page'>
-            <FilterComponent initialCategory={categoryId} setCategory={setCategory} />
+            <FilterComponent initialCategory={categoryId} setCategory={setCategory} searchFilter={searchFilter} />
             <div className='product-list'>
                 {displayProducts.map((product, idx) => {
                     return <ProductComponent key={idx} product={product} />

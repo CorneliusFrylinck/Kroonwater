@@ -9,11 +9,13 @@ import { useStore } from '../../../Stores/store';
 
 const FilterComponent = ({
     initialCategory,
-    setCategory
+    setCategory,
+    searchFilter
 }) => {
 
     const [activeFilter, setActiveFiler] = useState(initialCategory);
     const {productStore} = useStore();
+    const [searchText, setSearchText] = useState("");
 
     const filterByCategory = (category) => {
         setCategory(category)
@@ -25,6 +27,11 @@ const FilterComponent = ({
         setActiveFiler(initialCategory)
     }, [])
 
+    const searchTextUpdate = (e) => {
+        console.log(e.target.value)
+        setSearchText(s => s = e.target.value)
+    }
+
     return (
         <div className='filter-component'>
             <InputGroup className='flex'>
@@ -32,8 +39,9 @@ const FilterComponent = ({
                     className='search-text'
                     type="text"
                     placeholder="Search here.."
+                    onChange={e => searchTextUpdate(e)}
                 />
-                <InputGroup.Text className='icon-text'>
+                <InputGroup.Text onClick={() => searchFilter(searchText)} className='icon-text'>
                     <FontAwesomeIcon icon={faSearch} />
                 </InputGroup.Text>
             </InputGroup>
