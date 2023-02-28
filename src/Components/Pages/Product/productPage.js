@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './product.css';
 import ContactFormComponent from '../Shared/ContactForm/contactForm';
-import { useStore } from '../../../Stores/store';
+import axios from 'axios';
 
 const ProductPage = () => {
 
@@ -11,17 +11,16 @@ const ProductPage = () => {
     const [product, setProduct] = useState(undefined);
     const [pars, setPars] = useState(undefined);
 
-    const {productStore} = useStore();
-
     useEffect(() => {
-        productStore.setProducts(productId);
+        axios.get("../Data/products.json").then((data) => {
+            let products = data.data.products;
+
+            let prod = products.filter(p => p.id.toString() === productId.toString())[0];
+            
+            setProduct(prod);
+            setPars(prod.description.split("//"));
+        })
     }, [productId]);
-
-    useEffect(() => {
-        setProduct(productStore.selectedProduct);
-        setPars(productStore.selectedProduct.description.split("//"));
-    }, [productStore.selectedProduct])
-
     if (product === undefined || pars === undefined) return (
         <div>loading...</div>
     );
