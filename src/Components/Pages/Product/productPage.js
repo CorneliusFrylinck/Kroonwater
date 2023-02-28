@@ -28,7 +28,7 @@ const ProductPage = () => {
     return (
         <div className='product-page'>
             <div className='product-page-header'>
-                <img className='product-page-image' src={require(`../../../Images/${product.image}`)} alt="loading..." />
+                <img className='product-page-image' src={require(`../../../Images/${product.image}`)} alt={product.altText} />
                 <div className='flex-col product-page-heading'>
                     <h3>{product.name}</h3>
                     <div>{pars.map((par, idx) => {
