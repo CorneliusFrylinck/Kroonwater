@@ -1,13 +1,12 @@
 import { makeAutoObservable } from "mobx";
-import data from "../Data/products.json";
+import axios from "axios";
 
 export default class ProductStore {
-    products;
     categoryId;
+    displayProducts;
+    selectedProduct;
 
     constructor() {
-        this.products = data.products;
-        this.categoryId = undefined;
         makeAutoObservable(this);
     }
 
@@ -15,17 +14,37 @@ export default class ProductStore {
         this.categoryId = categoryId;
     }
 
-    getProducts = () => {
-        if (this.categoryId === undefined) return this.products;
-
-        return this.products.filter(p => p.categoryId == this.categoryId);
+    setDisplayProducts = () => {
+        this.setFileredFileData()
     }
 
-    getProduct = (productId) => {
-        return this.products.filter((p) => p.id == productId)[0];
+    getProducts = () => {
+        return this.getFileredFileData()
+    }
+
+    setProduct = (productId) => {
+        let result = this.getFileredFileData()[0];
+
+        this.selectedProduct = result;
     }
 
     getItemList = (searchStr) => {
-        return this.products.filter(p => p.name.toLowerCase().includes(searchStr));
+        //return this.getFileData().filter(p => p.name.toLowerCase().includes(searchStr));
+    }
+
+    setFileredFileData = () => {
+        axios.get("../Data/products.json").then((data) => {
+            if (this.categoryId === undefined) this.displayProducts = data.data.products;
+
+            this.displayProducts = data.data.products.filter(p => p.categoryId == this.categoryId);
+        })
+    }
+
+    getFileredFileData = () => {
+        axios.get("../Data/products.json").then((data) => {
+            if (this.categoryId === undefined) return data.data.products;
+
+            return data.data.products.filter(p => p.categoryId == this.categoryId);
+        })
     }
 }

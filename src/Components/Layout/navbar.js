@@ -5,6 +5,7 @@ import searchIcon from '../../Images/search.png';
 import { Link } from 'react-router-dom';
 import { observer } from 'mobx-react-lite';
 import { useStore } from '../../Stores/store';
+import axios from 'axios';
 
 const Navbar = () => {
     const [itemList, setItemList] = useState(undefined);
@@ -18,7 +19,11 @@ const Navbar = () => {
             return;
         }
 
-        setItemList(productStore.getItemList(searchStr));
+        axios.get("../Data/products.json").then((data) => {
+            let products = data.data.products;
+
+            setItemList(products.filter(p => p.name.toLowerCase().includes(searchStr)));
+        })
     }
 
     const setCategoryId = (categoryId) => {

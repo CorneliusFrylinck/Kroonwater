@@ -14,10 +14,13 @@ const ProductPage = () => {
     const {productStore} = useStore();
 
     useEffect(() => {
-        let product = productStore.getProducts(productId);
-        setProduct(product);
-        setPars(product.description.split("//"));
+        productStore.setProducts(productId);
     }, [productId]);
+
+    useEffect(() => {
+        setProduct(productStore.selectedProduct);
+        setPars(productStore.selectedProduct.description.split("//"));
+    }, [productStore.selectedProduct])
 
     if (product === undefined || pars === undefined) return (
         <div>loading...</div>

@@ -8,14 +8,16 @@ import { observer } from 'mobx-react-lite';
 import { useStore } from '../../../Stores/store';
 
 const FilterComponent = ({
-    initialCategory
+    initialCategory,
+    setCategory
 }) => {
 
     const [activeFilter, setActiveFiler] = useState(initialCategory);
     const {productStore} = useStore();
 
     const filterByCategory = (category) => {
-        productStore.setCategoryId(category)
+        setCategory(category)
+        productStore.categoryId = category
     }
 
     useEffect(() => {
