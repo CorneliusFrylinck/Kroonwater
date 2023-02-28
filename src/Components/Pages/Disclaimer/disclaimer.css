@@ -1,0 +1,38 @@
+
+
+ul {
+    padding-left: 1rem;
+    margin: 0;
+}
+
+p.description-heading {
+    padding-bottom: 0rem;
+    margin-bottom: 0.2rem;
+}
+
+h3 {
+    padding-bottom: 0;
+    margin-bottom: 0.2rem;
+    margin-top: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+
+p {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0.2rem;
+    margin-top: 0.4rem;
+}
+
+.more-on-top {
+    padding-top: 0.6rem;
+}
+
+.bold {
+    font-weight: 550;
+}
+
+.disclaimer-page {
+    padding: 2rem;
+}
