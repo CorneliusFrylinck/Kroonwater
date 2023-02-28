@@ -127,4 +127,8 @@ a {
         justify-content: center;
         margin-bottom: 2rem;
     }
+
+    .why-use-us-container {
+        margin-left: 0;
+    }
 }
