@@ -10,7 +10,7 @@ const CategoryComponent = ({
     return (
         <Link to={`/products/${categoryId}`}>
             <div className='category'>
-                <img src={image} alt="category" />
+                <img src={image} alt="loading..." />
                 <p>{text}</p>
             </div>
         </Link>

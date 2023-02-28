@@ -33,7 +33,7 @@ const Navbar = () => {
     return (
         <div className='nav-bar'>
             <Link to={'/'} className='logo-container nav-element'>
-                <img className='logo' src={logo} alt='logo' />
+                <img className='logo' src={logo} alt='loading...' />
             </Link>
             <Link to={'/'} className='nav-element'>Home</Link>
             <Link to={'/products/undefined'} onClick={() => setCategoryId(undefined)} className='nav-element'>Products</Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     {itemList !== undefined && itemList.map((item, idx) => {
                         return (
                             <Link to={`/product/${item.id}`} key={idx} className='search-image-container'>
-                                <img className='search-image' src={require(`../../Images/${item.image}`)} alt="product" />
+                                <img className='search-image' src={require(`../../Images/${item.image}`)} alt="loading..." />
                                 <div className='search-name'>{item.name}</div>
                             </Link>
                         )

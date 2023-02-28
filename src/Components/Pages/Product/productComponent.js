@@ -7,7 +7,7 @@ const ProductComponent = ({
 }) => {
     return (
         <Link to={`/product/${product.id}`} className='product-component'>
-            <img src={require(`../../../Images/${product.image}`)} alt="product" />
+            <img src={require(`../../../Images/${product.image}`)} alt="loading..." />
         </Link>
     )
 }

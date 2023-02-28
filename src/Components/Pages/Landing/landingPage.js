@@ -12,7 +12,7 @@ const LandingPage = () => {
         <>
             <div>
                 <div className='header-image-container'>
-                    <img className='header-image' src={headerImage} alt='header' />
+                    <img className='header-image' src={headerImage} alt='loading...' />
                 </div>
                 <div className='padded'>
                     <AboutComponent />
