@@ -4,7 +4,7 @@ import './landing.css';
 
 const AboutComponent = () => {
     return (
-        <div className='flex'>
+        <div className='about-page'>
             <div className='flex-col'>
                 <h3 className='header'>Who are we?</h3>
                 <div className='about-component'>

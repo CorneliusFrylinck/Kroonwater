@@ -7,3 +7,15 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 822px) {
+    .nav-bar-placeholder {
+        min-height: 6rem;
+    }
+}
+
+@media (max-width: 577px) {
+    .nav-bar-placeholder {
+        min-height: 9rem;
+    }
+}

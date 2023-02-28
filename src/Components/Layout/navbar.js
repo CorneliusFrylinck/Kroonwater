@@ -35,21 +35,25 @@ const Navbar = () => {
             <Link to={'/'} className='logo-container nav-element'>
                 <img className='logo' src={logo} alt='loading...' />
             </Link>
-            <Link to={'/'} className='nav-element'>Home</Link>
-            <Link to={'/products/undefined'} onClick={() => setCategoryId(undefined)} className='nav-element'>Products</Link>
-            <Link to={'/services'} className='nav-element'>Services</Link>
-            <Link to={'/contact'} className='nav-element'>Contact</Link>
-            <div >
-                <input onChange={(e) => searchForItems(e)} className='nav-search' style={{backgroundImage: `url(${searchIcon}) no-repeat right`}} placeholder='Search...'/>
-                <div className='search-image-list'>
-                    {itemList !== undefined && itemList.map((item, idx) => {
-                        return (
-                            <Link to={`/product/${item.id}`} key={idx} className='search-image-container'>
-                                <img className='search-image' src={require(`../../Images/${item.image}`)} alt="loading..." />
-                                <div className='search-name'>{item.name}</div>
-                            </Link>
-                        )
-                    })}
+            <div className='nav-list-and-search-container'>
+                <div className='nav-list'>
+                    <Link to={'/'} className='nav-element'>Home</Link>
+                    <Link to={'/products/undefined'} onClick={() => setCategoryId(undefined)} className='nav-element'>Products</Link>
+                    <Link to={'/services'} className='nav-element'>Services</Link>
+                    <Link to={'/contact'} className='nav-element'>Contact</Link>
+                </div>
+                <div >
+                    <input onChange={(e) => searchForItems(e)} className='nav-search' style={{backgroundImage: `url(${searchIcon}) no-repeat right`}} placeholder='Search...'/>
+                    <div className='search-image-list'>
+                        {itemList !== undefined && itemList.map((item, idx) => {
+                            return (
+                                <Link to={`/product/${item.id}`} key={idx} className='search-image-container'>
+                                    <img className='search-image' src={require(`../../Images/${item.image}`)} alt="loading..." />
+                                    <div className='search-name'>{item.name}</div>
+                                </Link>
+                            )
+                        })}
+                    </div>
                 </div>
             </div>
             

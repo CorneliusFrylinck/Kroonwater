@@ -17,7 +17,7 @@ const Footer = () => {
                     <div>E-mail: kroonwater@gmail.com </div>
                 </div>
             </div>
-            <div className='flex-between'>
+            <div className='footer-footer'>
                 <div>Copyright &copy; 2023 Kroon-water & Cornelius Frylinck</div>
                 <div>View our <Link to='/disclaimer'>Disclaimer</Link> </div>
             </div>
