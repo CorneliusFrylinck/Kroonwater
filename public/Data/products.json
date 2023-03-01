@@ -6,7 +6,7 @@
             "description": "The first stage is a 50 micron sediment filter that will remove sediment, silt, rust and loose particles to ensure water.",
             "name": "Big Blue 1-stage filter",
             "categoryId": 2,
-            "altText": "water purification Potchefstroom"
+            "altText": "gesuiwerde water purification/suiwering Potchefstroom"
         },
         {
             "image": "CBB-2N-S.png",
@@ -14,7 +14,7 @@
             "description": "The first stage is a 50 micron sediment filter that will remove sediment, silt, rust and loose particles to ensure water. //The stage 2activated carbon filter will remove chlorine, volatile organic compounds (VOC's) and bad tastes and odours from the water.",
             "name": "Big Blue 2-stage filter",
             "categoryId": 2,
-            "altText": "water filters Potchefstroom"
+            "altText": "gefiltreerde water filters/filtreerders Potchefstroom"
         },
         {
             "image": "CBB-3N-S.png",
@@ -22,7 +22,7 @@
             "description": "The first stage is a 50 micron sediment filter that will remove sediment, silt, rust and loose particles to ensure water. //The stage 2 activated carbon filter will remove chlorine, volatile organic compounds (VOC's) and bad tastes and odours from the water. //The third stage is a 5 micron sediment filter for finer filtration. It is also used as a polishing filter before the UV light. This is to ensure that the UV light receives clear water which in turn will ensure effective penetration of the UV light through the water.",
             "name": "Big Blue 3-stage filter",
             "categoryId": 2,
-            "altText": "water filtering Potchefstroom"
+            "altText": "suiwer water filtering/sanitasie Potchefstroom"
         },
         {
             "image": "CBB-4N-S.png",
@@ -86,7 +86,7 @@
             "description": "A new type of the 5 micron 5UPP sediment filter.",
             "name": "5UPP sediment filter",
             "categoryId": 1,
-            "altText": "water filtering Orkney"
+            "altText": "water filtrasie/filtering sisteme Orkney"
         },
         {
             "image": "SFPP-1005.png",
@@ -94,7 +94,7 @@
             "description": "A 10\" 5 micron melt blown sediment filter",
             "name": "Melt blown sediment filter",
             "categoryId": 1,
-            "altText": "water cleaning Orkney"
+            "altText": "gesuiwerde water suiwering/cleaning Orkney"
         },
         {
             "image": "HWRO-101.png",
@@ -102,7 +102,7 @@
             "description": "A 5-stage reverse osmosis system.",
             "name": "RO system",
             "categoryId": 1,
-            "altText": "water purification Klerksdorp"
+            "altText": "water filtrasie/purification Klerksdorp"
         },
         {
             "image": "HWRO-101B.png",
@@ -110,7 +110,7 @@
             "description": "A 5-stage reverse osmosis booster.",
             "name": "RO booster",
             "categoryId": 1,
-            "altText": "water filters Klerksdorp"
+            "altText": "gefiltreerde water filters Klerksdorp"
         },
         {
             "image": "RO218.png",
@@ -118,7 +118,7 @@
             "description": "A 6-stage high flow 50lph reverse osmosis system.",
             "name": "High flow RO system",
             "categoryId": 1,
-            "altText": "water filtering Klerksdorp"
+            "altText": "gesuiwerde water filtering Klerksdorp"
         },
         {
             "image": "SOFT50M.png",
@@ -126,7 +126,7 @@
             "description": "A complete 50 liter metered water softener. Water softeners softer water by removing certain materials such as calcium and magnesium.",
             "name": "50l softener",
             "categoryId": 3,
-            "altText": "water cleaning Klerksdorp"
+            "altText": "water cleaning/suiweraars Klerksdorp"
         },
         {
             "image": "SOFT75M.png",
@@ -134,7 +134,7 @@
             "description": "A complete 75 liter metered water softener. Water softeners softer water by removing certain materials such as calcium and magnesium.",
             "name": "75l softener",
             "categoryId": 3,
-            "altText": "water purification Stilfontein"
+            "altText": "water purification/suiwering Stilfontein"
         },
         {
             "image": "SOFT100M.png",
@@ -142,7 +142,7 @@
             "description": "A complete 100 liter metered water softener. Water softeners softer water by removing certain materials such as calcium and magnesium.",
             "name": "100l softener",
             "categoryId": 3,
-            "altText": "water filters Stilfontein"
+            "altText": "water filters/sanitasie Stilfontein"
         },
         {
             "image": "SOFT150M.png",
@@ -150,7 +150,7 @@
             "description": "A complete 150 liter metered water softener. Water softeners softer water by removing certain materials such as calcium and magnesium.",
             "name": "150l softener",
             "categoryId": 3,
-            "altText": "water filtering Stilfontein"
+            "altText": "water filtering/filtrering Stilfontein"
         }
     ]
 }
