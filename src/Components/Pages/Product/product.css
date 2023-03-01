@@ -104,7 +104,12 @@
 
 .filter-option {
     width: auto;
+    max-width: 100%;
     margin-right: auto;
+}
+
+.filter-component {
+    max-width: 100%;
 }
 
 @media (max-width: 577px) {
@@ -114,6 +119,26 @@
         justify-content: center;
         text-align: center;
         align-items: center;
+    }
+
+    .filter-component {
+        margin: 0;
+        margin-top: 2rem;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .filter-options {
+        margin: 0;
+        margin-top: 2rem;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .filter-option {
+        margin: auto;
     }
 
     .search-bar {
