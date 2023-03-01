@@ -97,3 +97,15 @@
 .product-page-heading div {
     color: rgba(75, 75, 75, 0.8);
 }
+
+@media (max-width: 577px) {
+    .products-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-page-header {
+        display: flex;
+        flex-direction: column;
+    }
+}
