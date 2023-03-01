@@ -98,14 +98,37 @@
     color: rgba(75, 75, 75, 0.8);
 }
 
+.search-bar {
+    display: flex;
+}
+
 @media (max-width: 577px) {
     .products-page {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .search-bar {
+        width: 100%;
+        justify-content: center;
     }
 
     .product-page-header {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-component > img {
+        height: 5.5rem;
+        width: 5rem;
+    }
+
+    .product-list {
+        justify-content: center;
     }
 }

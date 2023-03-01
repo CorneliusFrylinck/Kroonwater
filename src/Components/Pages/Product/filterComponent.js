@@ -34,7 +34,7 @@ const FilterComponent = ({
 
     return (
         <div className='filter-component'>
-            <InputGroup className='flex'>
+            <InputGroup className='search-bar'>
                 <Form.Control
                     className='search-text'
                     type="text"
