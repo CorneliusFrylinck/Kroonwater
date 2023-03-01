@@ -46,10 +46,10 @@ const FilterComponent = ({
                 </InputGroup.Text>
             </InputGroup>
             <div className='filter-options'>
-                <div style={{color: activeFilter === 1 ? "#031153": "#01A3F6", cursor: activeFilter === 1 ? "default": "pointer"}} onClick={() => filterByCategory(1)}>Household Purifiers</div>
-                <div style={{color: activeFilter === 2 ? "#031153": "#01A3F6", cursor: activeFilter === 2 ? "default": "pointer"}} onClick={() => filterByCategory(2)}>Industrial Purifiers</div>
-                <div style={{color: activeFilter === 3 ? "#031153": "#01A3F6", cursor: activeFilter === 3 ? "default": "pointer"}} onClick={() => filterByCategory(3)}>Softeners</div>
-                <div style={{color: activeFilter === undefined || activeFilter === "undefined" ? "#031153": "#01A3F6", cursor: activeFilter === undefined ? "default": "pointer"}} onClick={() => filterByCategory(undefined)}>All</div>
+                <div className='filter-option' style={{color: activeFilter === 1 ? "#031153": "#01A3F6", cursor: activeFilter === 1 ? "default": "pointer"}} onClick={() => filterByCategory(1)}>Household Purifiers</div>
+                <div className='filter-option' style={{color: activeFilter === 2 ? "#031153": "#01A3F6", cursor: activeFilter === 2 ? "default": "pointer"}} onClick={() => filterByCategory(2)}>Industrial Purifiers</div>
+                <div className='filter-option' style={{color: activeFilter === 3 ? "#031153": "#01A3F6", cursor: activeFilter === 3 ? "default": "pointer"}} onClick={() => filterByCategory(3)}>Softeners</div>
+                <div className='filter-option' style={{color: activeFilter === undefined || activeFilter === "undefined" ? "#031153": "#01A3F6", cursor: activeFilter === undefined ? "default": "pointer"}} onClick={() => filterByCategory(undefined)}>All</div>
             </div>
         </div>
     )

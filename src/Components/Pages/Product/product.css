@@ -102,6 +102,11 @@
     display: flex;
 }
 
+.filter-option {
+    width: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 577px) {
     .products-page {
         display: flex;
