@@ -10,13 +10,13 @@ require("babel-register")({
     let catIdMap = [];
 
     for(var i = 1; i <= 17; i++) {
-        prodIdMap.push({ id: i });
+        prodIdMap.push({ productId: i });
     }
 
     catIdMap.push({id: "undefined"});
 
     for(var i = 1; i <= 3; i++) {
-        catIdMap.push({ id: i });
+        catIdMap.push({ categoryId: i });
     }
 
     const paramsConfig = {
