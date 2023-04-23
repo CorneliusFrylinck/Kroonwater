@@ -13,9 +13,9 @@ const ContactFormComponent = ({
                 <h3>Contact us</h3>
                 <div>Location: Potchefstroom</div>
                 <div>Service area: North-West Province</div>
-                <div>Christo Jordaan: <a href='tel:083 627 5613'>083 627 5613</a></div> 
-                <div>Marilize Jordaan: <a href='tel:082 787 3632'>082 787 3632</a></div>
-                <div>E-mail: <a href={`mailto:${emailAddress}?subject=${subject}`}>{emailAddress}</a> </div>
+                <div className='contact-detail'><div>Christo Jordaan:</div> <a href='tel:083 627 5613'>083 627 5613</a></div> 
+                <div className='contact-detail'><div>Marilize Jordaan:</div> <a href='tel:082 787 3632'>082 787 3632</a></div>
+                <div className='contact-detail'><div>E-mail:</div> <a href={`mailto:${emailAddress}?subject=${subject}`}>{emailAddress}</a> </div>
             </div>
         </div>
     )

@@ -21,13 +21,13 @@ const DisclaimerPage = () => {
                 </ul>
                 <p className='description-heading bold'>Damage policy</p>
                 <ul>
-                    <li>After 14 days of installation, Kroonwater will not be held liable for any direct, indirect, 
+                    <li>After 14 days of installation, Kroon-water will not be held liable for any direct, indirect, 
                 incidental, special or consequential damages that result from a client’s use or inability to use </li>
                 </ul>
                 <p className='description-heading bold'>Trademarks </p>
                 <ul>
                     <li>The logo and other trademarks,  service marks and trade names (the “marks”) used to 
-                identify Kroonwater’s products and services are the exclusive property of Kroonwater </li>
+                identify Kroon-water’s products and services are the exclusive property of Kroon-water </li>
                 </ul>
             </div>
         </div>

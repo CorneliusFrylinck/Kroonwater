@@ -5,7 +5,7 @@ const WhyUseUsPage = () => {
     return (
         <div className='whyUseUs-page'>
             <div className='whyUseUs-container'>
-                <h3 id="top">Why choose Kroonwater </h3>
+                <h3 id="top">Why choose Kroon-water </h3>
                 <p className='description-heading bold'>Our main aim is to establish lasting relationships with our clients, by providing them with: </p>
                 <ul>
                     <li>Top quality water with oxygen enriched, for personal and commercial use </li>
@@ -62,7 +62,7 @@ const WhyUseUsPage = () => {
                 <p className='description-heading bold'>Facts to consider</p>
                 <p>Regular maintenance can extend the life of your water purification equipment. </p>
                 <p>Water softening can improve the efficiency of your appliances and reduce the amount of soap and detergent you use. </p>
-                <p>Hard water can leave mineral build-up on your fixtures and appliances.  Kroonwater offers water softening products to prevent this damage. </p>
+                <p>Hard water can leave mineral build-up on your fixtures and appliances.  Kroon-water offers water softening products to prevent this damage. </p>
                 <p>Coal-based carbon is prone to leach dangerous heavy metals into the water, which is especially dangerous to use in the taste and odour filter.  </p>
                 <p>The activated carbon used in the different filters is coconut shell carbon. Coconut shell carbon is a much more effective and more expensive carbon than coal-based carbon, but most importantly is safe to use. </p>
             </div>

@@ -14,3 +14,10 @@
 .contact-form-container h3 {
     color: rgba(0, 0, 0, 0.8);
 }
+
+@media (max-width: 360px) {
+    .contact-detail {
+        display: flex;
+        flex-direction: column;
+    }
+}
